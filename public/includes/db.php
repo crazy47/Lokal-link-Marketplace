@@ -1,10 +1,11 @@
 <?php
-require_once 'env_loader.php';
+// Load environment variables (assuming you have your env_loader.php ready)
+require_once 'env_loader.php'; 
 
-$host = $_ENV['DB_HOST'];
-$db   = $_ENV['DB_NAME'];
-$user = $_ENV['DB_USER'];
-$pass = $_ENV['DB_PASS'];
+$host = $_ENV['DB_HOST'] ?? 'localhost';
+$db   = $_ENV['DB_NAME'] ?? 'db_lokallink';
+$user = $_ENV['DB_USER'] ?? 'root';
+$pass = $_ENV['DB_PASS'] ?? '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
@@ -17,6 +18,5 @@ $options = [
 try {
      $pdo = new PDO($dsn, $user, $pass, $options);
 } catch (\PDOException $e) {
-     die("Connection failed: " . $e->getMessage());
+     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
-?>
