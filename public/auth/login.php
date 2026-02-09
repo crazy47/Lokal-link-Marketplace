@@ -11,25 +11,20 @@
         <form action="process_login.php" method="POST" class="space-y-10">
             
             <div class="space-y-6">
-                <div class="group">
-                    <label class="block text-[10px] font-black uppercase tracking-[0.2em] text-gray-400 mb-1 group-focus-within:text-[#1E4033] transition-colors">Email Address</label>
-                    <input type="email" name="email" required 
-                        class="w-full border-b-2 border-gray-100 py-3 text-sm font-bold focus:outline-none focus:border-[#1E4033] uppercase tracking-widest placeholder:text-gray-200 transition-all">
+                <div class="space-y-1">
+                    <label class="text-sm font-medium text-gray-600">Email Address</label>
+                    <input type="email" name="email" placeholder="Enter your business email" 
+                        class="w-full border-b-2 border-gray-100 py-3 focus:outline-none focus:border-[#1E4033] transition-colors">
                 </div>
-                
-                <div class="group">
-                    <div class="flex justify-between items-end mb-1">
-                        <label class="block text-[10px] font-black uppercase tracking-[0.2em] text-gray-400 group-focus-within:text-[#1E4033] transition-colors">Password</label>
-                        <a href="#" class="text-[9px] font-bold uppercase tracking-widest text-gray-400 hover:text-[#1E4033]">Forgot?</a>
-                    </div>
-                    <input type="password" name="password" required 
-                        class="w-full border-b-2 border-gray-100 py-3 text-sm font-bold focus:outline-none focus:border-[#1E4033] uppercase tracking-widest placeholder:text-gray-200 transition-all">
-                </div>
-            </div>
 
-            <div class="pt-4">
-                <button type="submit" class="w-full bg-[#1E4033] text-white py-6 text-xs font-black uppercase tracking-[0.4em] hover:brightness-110 transition-all">
-                    Sign In to Portal
+                <div class="space-y-1">
+                    <label class="text-sm font-medium text-gray-600">Password</label>
+                    <input type="password" name="password" placeholder="••••••••" 
+                        class="w-full border-b-2 border-gray-100 py-3 focus:outline-none focus:border-[#1E4033] transition-colors">
+                </div>
+
+                <button type="submit" class="w-full bg-[#1E4033] text-white py-4 font-bold rounded-sm hover:bg-black transition-all">
+                    Sign In to Your Account
                 </button>
             </div>
         </form>

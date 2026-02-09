@@ -2,21 +2,14 @@
 session_start();
 require_once '../includes/db.php';
 
-// 1. Security Check
-if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'producer') {
-    header("Location: ../auth/login.php");
-    exit();
-}
-
-// 2. Delete Logic
-if (isset($_GET['id'])) {
+if (isset($_GET['id']) && $_SESSION['user_type'] === 'producer') {
     try {
         $stmt = $pdo->prepare("DELETE FROM tbl_products WHERE product_id = ?");
         $stmt->execute([$_GET['id']]);
         header("Location: manage-products.php?success=deleted");
     } catch (PDOException $e) {
-        // If an order already exists for this product, you might get a constraint error
-        die("Error: This product is linked to an existing order and cannot be deleted.");
+        // Blocks deletion if the product is already in an order
+        die("Cannot delete: This product is part of an existing order record.");
     }
 } else {
     header("Location: manage-products.php");

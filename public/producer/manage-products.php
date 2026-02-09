@@ -122,8 +122,16 @@ include '../includes/header.php';
                                         </span>
                                     </td>
                                     <td class="px-8 py-6 text-right space-x-4">
-                                        <a href="edit-product.php?id=<?php echo $product['product_id']; ?>" class="text-[10px] font-black uppercase tracking-widest text-gray-400 hover:text-[#1E4033]">Edit</a>
-                                        <a href="delete-product.php?id=<?php echo $product['product_id']; ?>" onclick="return confirm('Delete this product?')" class="text-[10px] font-black uppercase tracking-widest text-red-400 hover:text-red-600">Delete</a>
+                                        <a href="edit_product.php?id=<?php echo $product['product_id']; ?>" 
+                                        class="text-[10px] font-black uppercase tracking-widest text-gray-400 hover:text-[#1E4033]">
+                                        Edit
+                                        </a>
+                                        
+                                        <a href="delete_product.php?id=<?php echo $product['product_id']; ?>" 
+                                        onclick="return confirm('Delete this product permanently?')" 
+                                        class="text-[10px] font-black uppercase tracking-widest text-red-400 hover:text-red-600">
+                                        Delete
+                                        </a>
                                     </td>
                                 </tr>
                                 <?php endforeach; ?>

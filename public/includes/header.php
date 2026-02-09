@@ -70,6 +70,8 @@ if (isset($_SESSION['cart']) && is_array($_SESSION['cart'])) {
                         <?php endif; ?>
 
                         <div class="h-6 w-px bg-gray-200"></div>
+                        
+                        <a href="/Lokal-link/public/profile.php" class="text-sm font-semibold uppercase tracking-wider text-gray-600 hover:text-producer-green transition-colors">Profile</a>
                         <a href="/Lokal-link/public/auth/logout.php" class="text-sm font-bold uppercase tracking-wider text-red-600 hover:text-red-800 transition-colors">Sign Out</a>
 
                     <?php else: ?>
@@ -101,11 +103,15 @@ if (isset($_SESSION['cart']) && is_array($_SESSION['cart'])) {
                     <a href="/Lokal-link/public/producer/manage-products.php" class="block text-sm font-bold uppercase text-gray-700">Inventory</a>
                     <a href="/Lokal-link/public/producer/orders.php" class="block text-sm font-bold uppercase text-producer-green">Incoming Orders</a>
                 <?php endif; ?>
-                <a href="/Lokal-link/public/auth/logout.php" class="block text-sm font-bold uppercase text-red-600">Sign Out</a>
+                
+                <div class="border-t border-gray-100 pt-4">
+                    <a href="/Lokal-link/public/profile.php" class="block text-sm font-bold uppercase text-gray-700">My Profile</a>
+                    <a href="/Lokal-link/public/auth/logout.php" class="block text-sm font-bold uppercase text-red-600 mt-2">Sign Out</a>
+                </div>
             <?php else: ?>
                 <a href="/Lokal-link/public/buyer/marketplace.php" class="block text-sm font-bold uppercase text-gray-700">Marketplace</a>
                 <a href="/Lokal-link/public/auth/login.php" class="block text-sm font-bold uppercase text-gray-700">Sign In</a>
                 <a href="/Lokal-link/public/auth/register.php" class="block bg-producer-green text-white p-4 text-center text-sm font-bold uppercase">Get Started</a>
             <?php endif; ?>
         </div>
-    </nav>
+    </nav>  
