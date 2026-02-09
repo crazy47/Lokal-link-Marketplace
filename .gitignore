@@ -1,0 +1,11 @@
+# Database Secrets
+.env
+
+# Tailwind / Build files
+/src/
+/tailwindcss
+/node_modules/
+
+# OS specific
+.DS_Store
+Thumbs.db
