@@ -30,6 +30,13 @@ The Producer Dashboard utilizes SQL aggregations (`SUM`, `COUNT`) to calculate r
 * **UI/UX:** Tailwind CSS (Modern Minimalist Design)
 * **Server:** Apache (Ubuntu environment)
 
+![FIle manager]([https://placekitten.com/400/30](https://github.com/crazy47/Lokal-link-Marketplace/blob/main/610501948_1563215684980509_7491559621095707587_n.jpg)0)
+![file manager](https://github.com/crazy47/Lokal-link-Marketplace/edit/main/README.md)
+! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626346717_4310309222543526_2829278025651519998_n.jpg)
+! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
+! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
+! [File manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/Presentation%20-%20Lokal-Link%20B2B%20Agricultural%20Marketplace.pdf)
+
 ## 📁 Project Structure
 ```text
 Lokal-Link/
@@ -42,10 +49,3 @@ Lokal-Link/
 │   └── includes/          # DB Config, Shared Headers/Footers
 └── .htaccess              # Rewriting rules for Pretty URLs
 
-
-![FIle manager]([https://placekitten.com/400/30](https://github.com/crazy47/Lokal-link-Marketplace/blob/main/610501948_1563215684980509_7491559621095707587_n.jpg)0)
-![file manager](https://github.com/crazy47/Lokal-link-Marketplace/edit/main/README.md)
-! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626346717_4310309222543526_2829278025651519998_n.jpg)
-! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
-! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
-! [File manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/Presentation%20-%20Lokal-Link%20B2B%20Agricultural%20Marketplace.pdf)
