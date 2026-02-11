@@ -48,4 +48,4 @@ Lokal-Link/
 ! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626346717_4310309222543526_2829278025651519998_n.jpg)
 ! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
 ! [file manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/626413338_1268241845213176_2619504842498342442_n.jpg)
-! [File manager] ()
+! [File manager] (https://github.com/crazy47/Lokal-link-Marketplace/blob/main/Presentation%20-%20Lokal-Link%20B2B%20Agricultural%20Marketplace.pdf)
